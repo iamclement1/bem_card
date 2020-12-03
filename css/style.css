@@ -32,3 +32,8 @@ body {
   text-align: center;
   justify-content: center;
 }
+
+.card-text span {
+  font-size: 15px;
+  font-weight: 20px;
+}
