@@ -14,6 +14,44 @@ body {
 }
 
 .card {
+  background: #ffff;
+  width: 750px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.card-content {
+  display: flex;
+  margin: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-logo-img {
+  display: relative-block;
+  position: relative;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+
+.card-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text h2 {
+  font-size: 2em;
+}
+
+.card-text p {
+  font-size: 2em;
+}
+
+.card-image {
+  display: relative-block;
   position: relative;
   width: 600px;
   height: 350px;
@@ -25,12 +63,13 @@ body {
   transition: 0.5s;
 }
 
-.card img {
+.card-image img {
   height: 100%;
   border-radius: 50px;
+  transition: 0.5s;
 }
 
-.card:hover img {
+.card-image:hover img {
   transition: 0.5s;
   transform: scale(1.2);
   box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.6);
