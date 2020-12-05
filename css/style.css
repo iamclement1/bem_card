@@ -31,4 +31,21 @@ body {
 }
 
 .card:hover img {
+  transition: 0.5s;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.6);
 }
+
+/*@media (max-width: 990px) {
+  .card {
+    position: relative;
+    width: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .card {
+    position: relative;
+  }
+}
+*/
